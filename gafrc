@@ -1,0 +1,10 @@
+;; -*- scheme -*-
+
+(map (lambda (dirname)
+       (let ((full-dir-name (string-append "symbols/" dirname)))
+	 (when (and (not (string-prefix? "." dirname))
+		    (eq? (stat:type (stat full-dir-name)) 'directory))
+	   (component-library full-dir-name))))
+     (scandir "symbols"))
+
+

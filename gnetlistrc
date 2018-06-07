@@ -1,0 +1,7 @@
+(hierarchy-uref-mangle "enabled")
+(hierarchy-uref-order "append")
+(hierarchy-uref-separator ":")
+(hierarchy-netname-mangle "enabled")
+(hierarchy-netattrib-mangle "disabled")
+
+(source-library ".")

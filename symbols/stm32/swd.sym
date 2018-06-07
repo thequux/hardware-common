@@ -1,0 +1,89 @@
+v 20060113 1
+P 1500 1900 1200 1900 1 0 0
+{
+T 1300 1950 5 8 1 1 0 0 1
+pinnumber=1
+T 1300 1850 5 8 0 1 0 2 1
+pinseq=1
+T 1150 1900 9 8 1 1 0 6 1
+pinlabel=3V3
+T 1150 1900 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 1500 1600 1200 1600 1 0 0
+{
+T 1300 1650 5 8 1 1 0 0 1
+pinnumber=2
+T 1300 1550 5 8 0 1 0 2 1
+pinseq=2
+T 1150 1600 9 8 1 1 0 6 1
+pinlabel=SWCLK
+T 1150 1600 5 8 0 1 0 8 1
+pintype=io
+}
+P 1500 1300 1200 1300 1 0 0
+{
+T 1300 1350 5 8 1 1 0 0 1
+pinnumber=3
+T 1300 1250 5 8 0 1 0 2 1
+pinseq=3
+T 1150 1300 9 8 1 1 0 6 1
+pinlabel=GND
+T 1150 1300 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 1500 1000 1200 1000 1 0 0
+{
+T 1300 1050 5 8 1 1 0 0 1
+pinnumber=4
+T 1300 950 5 8 0 1 0 2 1
+pinseq=4
+T 1150 1000 9 8 1 1 0 6 1
+pinlabel=SWDIO
+T 1150 1000 5 8 0 1 0 8 1
+pintype=io
+}
+P 1500 700 1300 700 1 0 0
+{
+T 1300 750 5 8 1 1 0 0 1
+pinnumber=5
+T 1300 650 5 8 0 1 0 2 1
+pinseq=5
+T 1150 700 9 8 1 1 0 6 1
+pinlabel=\_RST\_
+T 1150 700 5 8 0 1 0 8 1
+pintype=io
+}
+V 1250 700 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+P 1500 400 1200 400 1 0 0
+{
+T 1300 450 5 8 1 1 0 0 1
+pinnumber=6
+T 1300 350 5 8 0 1 0 2 1
+pinseq=6
+T 1150 400 9 8 1 1 0 6 1
+pinlabel=SWO
+T 1150 400 5 8 0 1 0 8 1
+pintype=io
+}
+B 400 100 800 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1200 2300 8 10 1 1 0 6 1
+refdes=J?
+T 400 2300 9 10 1 0 0 0 1
+SWD
+T 400 2500 5 10 0 0 0 0 1
+device=SWD
+T 400 2700 5 10 0 0 0 0 1
+footprint=JUMPER6
+T 400 2900 5 10 0 0 0 0 1
+author=TQ Hirsch <thequux@thequux.com>
+T 400 3100 5 10 0 0 0 0 1
+documentation=N/A
+T 400 3300 5 10 0 0 0 0 1
+description=ST-Link SWD connector
+T 400 3500 5 10 0 0 0 0 1
+numslots=0
+T 400 3700 5 10 0 0 0 0 1
+dist-license=MIT
+T 400 3900 5 10 0 0 0 0 1
+use-license=MIT
