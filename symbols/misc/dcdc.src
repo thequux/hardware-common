@@ -9,10 +9,10 @@
 # sort_labels will sort the pins by it's labels
 #   useful for address ports, busses, ...
 wordswap=yes
-rotate_labels=yes
+rotate_labels=no
 sort_labels=no
 generate_pinseq=yes
-sym_width=3200
+sym_width=800
 pinwidthvertical=400
 pinwidthhorizontal=400
 
@@ -23,14 +23,12 @@ pinwidthhorizontal=400
 # if you have a device with slots, you'll have to use slot= and slotdef=
 # use comment= if there are special information you want to add
 version=20060113 1
-name=STM32F103C8T6-BLUEPILL
-device=STM32F103C8T6-BLUEPILL
+name=DC/DC Module
+device=dcdc_module
 refdes=U?
-source=bluepill.sch
-# TODO
-footprint=LQFP48_7
-description=Medium-density performance line ARM®-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces
-documentation=http://www.st.com/en/microcontrollers/stm32f103c8.html
+footprint=
+description=Chinesium DC/DC buck converter
+documentation=http://aliexpress.com
 author=TQ Hirsch <thequux@thequux.com>
 dist-license=MIT
 use-license=MIT
@@ -59,54 +57,7 @@ numslots=0
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-10		io	line	l		PA0/WKUP
-11		io	line	l		PA1
-12		io	line	l		PA2
-13		io	line	l		PA3
-14		io	line	l		PA4
-15		io	line	l		PA5
-16		io	line	l		PA6
-17		io	line	l		PA7
-29		io	line	l		PA8 (5V)
-30		io	line	l		PA9 (5V)
-31		io	line	l		PA10 (5V)
-32		io	line	l		PA11 (5V)
-33		io	line	l		PA12 (5V)
-34			spacer	l		PA13 (5V) (SWDIO)
-37			spacer	l		PA14 (5V) (SWCLK)
-38		io	line	l		PA15 (5V)
-			spacer	l
-7		io	dot	l		\_RST\_
-			spacer	l		OSC_IN
-			spacer	l		OSC_OUT
-			spacer	l
-			spacer	l		VDDA
-			spacer	l		VSSA
-
-18		io	line	r		PB0
-19		io	line	r		PB1
-			spacer	r		PB2 (5V) (BOOT1)
-39		io	line	r		PB3 (5V)
-40		io	line	r		PB4 (5V)
-41		io	line	r		PB5 (5V)
-42		io	line	r		PB6 (5V)
-43		io	line	r		PB7 (5V)
-45		io	line	r		PB8 (5V)
-46		io	line	r		PB9 (5V)
-21		io	line	r		PB10 (5V)
-22		io	line	r		PB11 (5V)
-25		io	line	r		PB12 (5V)
-26		io	line	r		PB13 (5V)
-27		io	line	r		PB14 (5V)
-28		io	line	r		PB15 (5V)
-			spacer	r
-			spacer	r		BOOT0 (5V)
-2		io	line	r		PC13 (TAMPER-RTC)
-3		io	line	r		PC14 (OSC32_IN)
-4		io	line	r		PC15 (OSC32_OUT)
-			spacer	r
-1		pwr	line	r		VBAT
-
-24		pwr	line	b	+3.3V	+3.3V
-23		pwr	line	b	GND	VSS
-50		pwr	line	b		+5V
+1		in	line	l		IN+
+2		in	line	l		IN-
+3		out	line	r		OUT+
+4		out	line	r		OUT-

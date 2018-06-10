@@ -7,4 +7,4 @@
 	   (component-library full-dir-name))))
      (scandir "symbols"))
 
-
+(source-library ".")

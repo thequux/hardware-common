@@ -1,0 +1,68 @@
+v 20060113 1
+P 100 800 400 800 1 0 0
+{
+T 300 850 5 8 1 1 0 6 1
+pinnumber=1
+T 300 750 5 8 0 1 0 8 1
+pinseq=1
+T 450 800 9 8 1 1 0 0 1
+pinlabel=VIN
+T 450 800 5 8 0 1 0 2 1
+pintype=in
+}
+P 600 100 600 400 1 0 0
+{
+T 650 300 5 8 1 1 0 2 1
+pinnumber=2
+T 550 300 5 8 0 1 0 8 1
+pinseq=2
+T 600 450 9 8 1 1 0 3 1
+pinlabel=GND
+T 600 600 5 8 0 1 0 3 1
+pintype=in
+}
+P 1000 100 1000 400 1 0 0
+{
+T 1050 300 5 8 1 1 0 2 1
+pinnumber=3
+T 950 300 5 8 0 1 0 8 1
+pinseq=3
+T 1000 450 9 8 1 1 0 3 1
+pinlabel=EN
+T 1000 600 5 8 0 1 0 3 1
+pintype=in
+}
+P 1500 800 1200 800 1 0 0
+{
+T 1300 850 5 8 1 1 0 0 1
+pinnumber=5
+T 1300 750 5 8 0 1 0 2 1
+pinseq=4
+T 1150 800 9 8 1 1 0 6 1
+pinlabel=VOUT
+T 1150 800 5 8 0 1 0 8 1
+pintype=out
+}
+B 400 400 800 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1200 1300 8 10 1 1 0 6 1
+refdes=U?
+T 400 1300 9 10 1 0 0 0 1
+MIC5365
+T 400 1500 5 10 0 0 0 0 1
+device=MIC5365
+T 400 1700 5 10 0 0 0 0 1
+footprint=SC70_5
+T 400 1900 5 10 0 0 0 0 1
+author=TQ Hirsch <thequux@thequux.com>
+T 400 2100 5 10 0 0 0 0 1
+documentation=http://www.mouser.be/datasheet/2/268/mic5365-779177.pdf
+T 400 2300 5 10 0 0 0 0 1
+description=3.3V Fixed LDO
+T 400 2500 5 10 0 0 0 0 1
+numslots=0
+T 400 2700 5 10 0 0 0 0 1
+dist-license=MIT
+T 400 2900 5 10 0 0 0 0 1
+use-license=MIT
+T 400 3100 5 10 0 0 0 0 1
+comment=Footprint can be overridden to SC-70 as well.
