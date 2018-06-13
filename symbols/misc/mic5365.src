@@ -57,7 +57,7 @@ comment=Footprint can be overridden to SC-70 as well.
 #-----------------------------------------------------
 #pinnr	seq	type	style	posit.	net	label	
 #-----------------------------------------------------
-1		in	line	l		VIN
-2		in	line	b		GND
+1		pwr	line	l		VIN
+2		pwr	line	b		GND
 3		in	line	b		EN
-5		out	line	r		VOUT
+5		pwr	line	r		VOUT

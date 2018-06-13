@@ -8,7 +8,7 @@ pinseq=1
 T 450 800 9 8 1 1 0 0 1
 pinlabel=VIN
 T 450 800 5 8 0 1 0 2 1
-pintype=in
+pintype=pwr
 }
 P 600 100 600 400 1 0 0
 {
@@ -19,7 +19,7 @@ pinseq=2
 T 600 450 9 8 1 1 0 3 1
 pinlabel=GND
 T 600 600 5 8 0 1 0 3 1
-pintype=in
+pintype=pwr
 }
 P 1000 100 1000 400 1 0 0
 {
@@ -41,7 +41,7 @@ pinseq=4
 T 1150 800 9 8 1 1 0 6 1
 pinlabel=VOUT
 T 1150 800 5 8 0 1 0 8 1
-pintype=out
+pintype=pwr
 }
 B 400 400 800 800 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 1200 1300 8 10 1 1 0 6 1
