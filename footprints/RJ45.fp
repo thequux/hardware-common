@@ -2,8 +2,8 @@ Element["" "RJ45" "" "" 0mm 0mm 1mm 1mm 0 100 ""]
 (
 	Pin[ 0mm        0mm    2mm   20mil  2mm   1.7mm   ""   ""  ""]
 	Pin[15.5mm      0mm    2mm   20mil  2mm   1.7mm   ""   ""  ""]
-	Pin[ 2.035mm   -3.05mm 0mm   0mm    3.4mm 3.2mm   ""   ""  ""]
-	Pin[13.465mm   -3.05mm 0mm   0mm    3.4mm 3.2mm	 ""   ""  ""]
+	Pin[ 2.035mm   -3.05mm 0mm   0mm    3.4mm 3.2mm   ""   ""  "hole"]
+	Pin[13.465mm   -3.05mm 0mm   0mm    3.4mm 3.2mm	 ""   ""   "hole"]
 	
 	Pin[ 3.305mm   -9.40mm 1mm   20mil  1mm   0.9mm  "1"  "1" ""]
 	Pin[ 4.575mm  -11.94mm 1mm   20mil  1mm   0.9mm  "2"  "2" ""]
