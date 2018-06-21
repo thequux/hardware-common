@@ -1,5 +1,7 @@
 ;; -*- scheme -*-
 
+(use-modules (ice-9 ftw))
+
 (map (lambda (dirname)
        (let ((full-dir-name (string-append "symbols/" dirname)))
 	 (when (and (not (string-prefix? "." dirname))
