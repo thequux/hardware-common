@@ -19,7 +19,7 @@ BOARDS=(
 	switch_board
 )
 
-VERSION=v1
+VERSION=v2
 
 function notify() {
 	echo "$(tput setf 10)$*$(tput op)"
@@ -57,7 +57,22 @@ for board in "${BOARDS[@]}"; do
 	    --gerberfile $export_path/$board \
 	    "${GERBER_OPTIONS[@]}" \
 	    $board.pcb
+	(cd "$export_path" && zip "../../${board}-${VERSION}.zip" *.*.*)
+
 	generate_gvp ${board} >$export_path/${board}.gvp
+
+	for side in top bottom; do
+	    typeset -a layers=()
+	    for part in mask paste silk  ""; do
+		layer="${export_path}/${board}.${side}${part}.gbr"
+		[[ -f "$layer" ]] &&
+		    layers=( "${layers[@]}" "$layer" )
+	    done
+	    gerbv -x pdf -o "${export_path}/${board}_${side}.pdf" \
+		  "${export_path}/"*.cnc \
+		  "${layers[@]}" 
+	done
+		  
 
 	# Export pretty PNGs
 	notify "Exporting PNGs for $board"
