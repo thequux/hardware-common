@@ -1,0 +1,34 @@
+v 20060113 1
+P 100 3600 300 3600 1 0 0
+{
+T 300 3650 5 8 1 1 0 6 1
+pinnumber=1
+T 300 3550 5 8 0 1 0 8 1
+pinseq=1
+T 450 3600 9 8 1 1 0 0 1
+pinlabel=RST
+T 450 3600 5 8 0 1 0 2 1
+pintype=in
+}
+V 350 3600 50 6 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+B 400 400 1400 3600 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1800 4100 8 10 1 1 0 6 1
+refdes=U?
+T 400 4100 9 10 1 0 0 0 1
+ESP-12E
+T 400 4300 5 10 0 0 0 0 1
+device=ESP-12E
+T 400 4500 5 10 0 0 0 0 1
+footprint=ESP12E
+T 400 4700 5 10 0 0 0 0 1
+author=TQ Hirsch <thequux@thequux.com>
+T 400 4900 5 10 0 0 0 0 1
+description=ESP8266 module (also compatible with ESP12F)
+T 400 5100 5 10 0 0 0 0 1
+numslots=0
+T 400 5300 5 10 0 0 0 0 1
+dist-license=MIT
+T 400 5500 5 10 0 0 0 0 1
+use-license=MIT
+T 400 5700 5 10 0 0 0 0 1
+net=:2,3,4,5,6,7,8,9,10,11,12,13,14,22,21,20,19,18,17,16,15
