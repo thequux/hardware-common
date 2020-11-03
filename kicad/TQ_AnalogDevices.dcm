@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SSM3582A
+D 2x, 31.76W, Digital Input, Filterless Stereo Class D Audio Amplifier
+F https://www.analog.com/media/en/technical-documentation/data-sheets/SSM3582A.pdf
+$ENDCMP
+#
+#End Doc Library

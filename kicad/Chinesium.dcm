@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP DSB321SDN
+D 12.288MHz ±1.5ppm TCXO
+K TXCO, 12.288MHz
+F https://datasheet.lcsc.com/szlcsc/1810301229_KDS-Daishinku-1XTW12288PCA_C253724.pdf
+$ENDCMP
+#
 #End Doc Library
