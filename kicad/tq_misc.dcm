@@ -1,0 +1,103 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 8P8C_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP DPBW06F-12
+D +/-250mA Regulated 6W DC/DC converter with 1.5kV isolation, 9-36V input, +/-12V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP DPBW06F-15
+D +/-200mA Regulated 6W DC/DC converter with 1.5kV isolation, 9-36V input, +/-15V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP DPBW06F-5
+D +/-600mA Regulated 6W DC/DC converter with 1.5kV isolation, 9-36V input, +/-5V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP DPBW06G-12
+D +/-250mA Regulated 6W DC/DC converter with 1.5kV isolation, 18-75V input, +/-12V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP DPBW06G-15
+D +/-200mA Regulated 6W DC/DC converter with 1.5kV isolation, 18-75V input, +/-15V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP DPBW06G-5
+D +/-600mA Regulated 6W DC/DC converter with 1.5kV isolation, 18-75V input, +/-5V fixed Output Voltage, SIP-8
+K Mean Well isolated isolation dc-dc converter transformer
+F https://www.meanwellusa.com/productPdf.aspx?i=795
+$ENDCMP
+#
+$CMP RJ31_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ32_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ33_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ34_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ35_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ41_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ45_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ49_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ61_Shielded_X2
+D RJ connector, 8P8C (8 positions 8 connected), Shielded
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP SRBH-06H1A1
+F https://www.mouser.be/datasheet/2/643/bel_02192018_SRBH-06H1A1_AA_Mar-23-2017-1500367.pdf
+$ENDCMP
+#
+#End Doc Library

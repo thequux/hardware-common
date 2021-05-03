@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# tc2030-serial
+#
+DEF tc2030-serial J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "tc2030-serial" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector:Tag-Connect_TC2030*
+ Connector_IDC:IDC-Header_2x03_P2.54mm_*
+$ENDFPLIST
+DRAW
+T 0 450 100 50 0 0 0 CTS Normal 0 R C
+T 0 50 -100 50 0 0 0 GND Normal 0 L C
+T 0 450 -100 50 0 0 0 RTS Normal 0 R C
+T 0 50 0 50 0 0 0 RXD Normal 0 L C
+T 0 450 0 50 0 0 0 TXD Normal 0 R C
+T 0 50 100 50 0 0 0 Vcc Normal 0 L C
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 550 -150 1 1 10 f
+S 550 -95 500 -105 1 1 6 N
+S 550 5 500 -5 1 1 6 N
+S 550 105 500 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 700 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 700 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 700 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
